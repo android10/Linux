@@ -20,6 +20,8 @@ class Command:
         self._command = shutil.which(command)
 
     def run(self):
+        """Run the specific command passed as str.
+        """
         try:
             # https://docs.python.org/3/library/subprocess.html
             process = Popen(self._command, text=True, stdout=PIPE, stderr=PIPE)
@@ -33,6 +35,8 @@ class Menu:
         self._items = items
 
     def show(self):
+        """Show the main script menu.
+        """
         self.print_header()
         self.print_items()
         self.print_footer()
