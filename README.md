@@ -5,7 +5,8 @@ Linux automation scripts, tutorials, documentation and more...
 ## Content
 
  - [Automation](automation)
-    - [Arch Linux](automation/arch/)
+ - [Maintenance](maintenance)
+    - [Arch Linux](maintenance/arch/)
 
 ## License
 
